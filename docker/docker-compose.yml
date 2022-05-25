@@ -4,7 +4,7 @@ services:
   todotests:
     image: todotests
     environment:
-      - FRONT_HOST=todofront
+      - FRONT_HOST=todofrontend
     depends_on:
       - todofront
       - todoback
